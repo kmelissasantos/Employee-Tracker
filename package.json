@@ -1,0 +1,22 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmelissasantos/Employee-Tracker.git"
+  },
+  "keywords": [
+    "empty"
+  ],
+  "author": "empty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmelissasantos/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/kmelissasantos/Employee-Tracker#readme"
+}
