@@ -2,7 +2,7 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "\"\"",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo"
   },
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/kmelissasantos/Employee-Tracker#readme",
   "dependencies": {
-    "inquirer": "^8.1.1"
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.2",
+    "mysql2": "^2.3.0"
   }
 }
