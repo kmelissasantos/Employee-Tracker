@@ -21,7 +21,9 @@
   "homepage": "https://github.com/kmelissasantos/Employee-Tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^8.1.2",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.3",
+    "jest": "^27.1.1",
     "mysql2": "^2.3.0"
   }
 }
