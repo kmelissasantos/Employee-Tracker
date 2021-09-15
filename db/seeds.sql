@@ -1,14 +1,15 @@
 USE employeeTracker;
 
-INSERT INTO department
-(name)
+INSERT INTO departments
+(department_name)
 VALUES
-('Marketing/Communication'),
+('Management'),
+('Marketing'),
 ('Sales'),
 ('Technology'),
 ('Customer Service');
 
-INSERT INTO role
+INSERT INTO roles
 (title, salary, department_id)
 VALUES
 ('HR Manager', 50000.00, 1),
@@ -17,11 +18,11 @@ VALUES
 ('Sales Rep', 50000.00, 1),
 ('IT Technician', 45000.00, 1),
 ('Marketing Assistant', 40000.00, 1),
-('Customer Service Rep', 35000.00, 1),
+('Customer Service Rep', 35000.00, 1);
 
 
 
-INSERT INTO employee
+INSERT INTO employees
 (first_name, last_name, role_id, manager_id)
 VALUES
 ('Melissa', 'Santos', 1, 727),
